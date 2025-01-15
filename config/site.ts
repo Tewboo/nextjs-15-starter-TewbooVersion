@@ -1,22 +1,22 @@
 import { SiteConfig } from "@/types/siteConfig";
 
-export const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://starter.weijunext.com/";
+export const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://starter.weijunext.com/"; // TODO: change to your own domain
 
 const baseSiteConfig = {
-  name: "Next.js 15 Starter",
+  name: "Next.js 15 Starter", // TODO: change to your own name
   description:
-    "Next.js 15 Starter is a meticulously designed Next.js starter template aimed at providing developers with a clean, efficient, and scalable foundation for quickly launching.",
+    "Next.js 15 Starter is a meticulously designed Next.js starter template aimed at providing developers with a clean, efficient, and scalable foundation for quickly launching.", // TODO: change to your own description
   url: BASE_URL,
   metadataBase: '/',
-  keywords: ["next.js 15 starter", "next.js template", "next.js 15 base", "study next.js"],
+  keywords: ["next.js 15 starter", "next.js template", "next.js 15 base", "study next.js"], // TODO: change to your own keywords
   authors: [
     {
-      name: "weijunext",
-      url: "https://weijunext.com",
-      twitter: 'https://x.com/weijunext',
+      name: "jesseshachou", 
+      url: "https://jesseshachou.com", // TODO: change to your own url
+      twitter: 'https://x.com/Tewbooathtb', 
     }
   ],
-  creator: '@weijunext',
+  creator: '@jesseshachou',
   themeColors: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },

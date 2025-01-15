@@ -1,26 +1,26 @@
 import Link from "next/link";
 
 const footerProducts = [
-  { url: "https://phcopilot.ai/", name: "Product Hunt Copilot" },
-  { url: "https://smartexcel.cc/", name: "Smart Excel" },
+  { url: "https://phcopilot.ai/", name: "Product Hunt Copilot" }, // TODO: change to your own url
+  { url: "https://smartexcel.cc/", name: "Smart Excel" }, // TODO: change to your own url 
   {
     url: "https://landingpage.weijunext.com/",
     name: "Landing Page Boilerplate",
-  },
-  { url: "https://nextjscn.org/", name: "Next.js 中文文档" },
-  { url: "https://nextjs.weijunext.com/", name: "Next.js Practice" },
-  { url: "https://starter.weijunext.com/", name: "Next.js Starter" },
+  }, // TODO: change to your own url
+  { url: "https://nextjscn.org/", name: "Next.js 中文文档" }, // TODO: change to your own url
+  { url: "https://nextjs.weijunext.com/", name: "Next.js Practice" }, // TODO: change to your own url
+  { url: "https://starter.weijunext.com/", name: "Next.js Starter" }, // TODO: change to your own url
   {
     url: "https://github.com/weijunext/indie-hacker-tools",
     name: "Indie Hacker Tools",
-  },
-  { url: "https://weijunext.com/", name: "J实验室" },
+  }, // TODO: change to your own url
+  { url: "https://tewboo.my/", name: "J's Lab" }, // TODO: change to your own url 
 ];
 
 const FooterProducts = () => {
   return (
     <div className="flex space-x-2 flex-wrap justify-center">
-      {footerProducts.map((product, index) => {
+      {/* {footerProducts.map((product, index) => {
         return (
           <span key={product.url}>
             <Link href={product.url} target="_blank">
@@ -35,7 +35,12 @@ const FooterProducts = () => {
             )}
           </span>
         );
-      })}
+      })} */}
+      <span key="https://tewboo.my/">
+        <Link href="https://tewboo.my/" target="_blank">
+          J's Lab 即将上线
+        </Link>
+      </span>
     </div>
   );
 };
