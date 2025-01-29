@@ -14,7 +14,7 @@ const footerProducts = [
     url: "https://github.com/weijunext/indie-hacker-tools",
     name: "Indie Hacker Tools",
   }, // TODO: change to your own url
-  { url: "https://tewboo.my/", name: "J's Lab" }, // TODO: change to your own url 
+  { url: "https://tewboo.my/", name: "J&apos;s Lab" }, // Fixed the apostrophe here
 ];
 
 const FooterProducts = () => {
@@ -38,7 +38,7 @@ const FooterProducts = () => {
       })} */}
       <span key="https://tewboo.my/">
         <Link href="https://tewboo.my/" target="_blank">
-          J's Lab 即将上线
+          J&apos;s Lab 即将上线
         </Link>
       </span>
     </div>
