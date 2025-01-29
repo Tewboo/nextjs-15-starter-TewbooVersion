@@ -1,4 +1,4 @@
-🌍 *[英文](README.md) ∙ [简体中文](README-zh.md)*
+🌍 _[英文](README.md) ∙ [简体中文](README-zh.md)_
 
 # [Next.js 15 Starter](https://starter.weijunext.com/)
 
@@ -20,7 +20,6 @@ Next.js 15 Starter 基于以下技术栈构建：
 - Google Analytics - 分析（[如何使用？](https://weijunext.com/article/979b9033-188c-4d88-bfff-6cf74d28420d)）
 - Vercel - 托管
 
-
 ## 本地运行
 
 克隆仓库后，您需要复制 `.env.example` 文件来创建一个 `.env` 文件，并填写所需字段。
@@ -34,36 +33,24 @@ npm run dev
 ## 创建你的项目
 
 修改以下文件：
+
 - `.env` 或 `.env.local`
-- `config/site.ts`, 填写你的网站信息 
+- `config/site.ts`, 填写你的网站信息
 - `public`, 修改 logo 文件
 - `public/robots.txt`
 - `app/sitemap.ts`
 
-
-
-## 一键部署
-
-使用 [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples) 部署：
-
-[![使用 Vercel 部署](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/weijunext/clean-nextjs-starter&project-name=&repository-name=clean-nextjs-starter&demo-title=CleanNextjsStarter&demo-description=Clean%20nextjs%20starter.&demo-url=https://starter.weijunext.com&demo-image=https://starter.weijunext.com/og.png)
-
 ## 关于我
 
-**Full-Stack Engineer, Open-Source Next.js Artist & AI Enthusiast.**
+**Full-Stack Engineer, Developer Next.js Artist & AI Enthusiast.**
 
-**全栈工程师，Next.js 开源手艺人，AI降临派。**
+**全栈工程师，Next.js 爱好者，AI 爱好者。**
 
-[博客](https://weijunext.com)  
-[Github](https://github.com/weijunext)  
-[Twitter/X](https://twitter.com/weijunext)  
-[Medium](https://medium.com/@weijunext)  
-[掘金](https://juejin.cn/user/26044008768029)
-[知乎](https://www.zhihu.com/people/mo-mo-mo-89-12-11)  
-[微信交流群](https://weijunext.com/make-a-friend)  
+[Github](https://github.com/tewboo)  
+[Twitter/X](https://twitter.com/Tewbooathtb)
 
-如果这个项目对您有帮助，请给仓库点个star，能赞助一下就更好了👇
+如果这个项目对您有帮助，请给仓库点个 star，能赞助一下就更好了 👇
 
-<a href="https://www.buymeacoffee.com/weijunextz" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="请我喝咖啡" style="height: 41px !important;width: 174px !important;" ></a>
+<!-- <a href="https://www.buymeacoffee.com/weijunextz" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="请我喝咖啡" style="height: 41px !important;width: 174px !important;" ></a> -->
 
-<img src="./public/zs.jpeg" alt="赞赏作者" style="height: 200px; width: 200px">
+<img src="public/wechatQR1.png" alt="赞赏作者" style="height: 200px; width: 200px">
