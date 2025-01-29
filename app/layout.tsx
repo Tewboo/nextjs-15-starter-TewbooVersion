@@ -42,7 +42,7 @@ export default async function RootLayout({
       <head />
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased",
+          "min-h-screen bg-background font-sans antialiased flex flex-col",
           fontSans.variable
         )}
       >
@@ -51,9 +51,11 @@ export default async function RootLayout({
           defaultTheme={siteConfig.defaultNextTheme}
           enableSystem
         >
-          <Header />
-          <main className="flex flex-col items-center py-6">{children}</main>
-          <Footer />
+          <div className="flex flex-col min-h-screen">
+            <Header />
+            <main className="flex-1 flex flex-col items-center py-6">{children}</main>
+            <Footer />
+          </div>
           <Analytics />
           <TailwindIndicator />
         </ThemeProvider>

@@ -1,6 +1,6 @@
 import { SiteConfig } from "@/types/siteConfig";
 
-export const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://starter.weijunext.com/"; // TODO: change to your own domain
+export const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://starter.tewboo.my/"; // TODO: change to your own domain
 
 const baseSiteConfig = {
   name: "Next.js 15 Starter", // TODO: change to your own name
@@ -11,21 +11,21 @@ const baseSiteConfig = {
   keywords: ["next.js 15 starter", "next.js template", "next.js 15 base", "study next.js"], // TODO: change to your own keywords
   authors: [
     {
-      name: "jesseshachou", 
-      url: "https://jesseshachou.com", // TODO: change to your own url
+      name: "Tewboo", 
+      url: "https://tewboo.my", // TODO: change to your own url
       twitter: 'https://x.com/Tewbooathtb', 
     }
   ],
-  creator: '@jesseshachou',
+  creator: '@Jesse',
   themeColors: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
   ],
   defaultNextTheme: 'system', // next-theme option: system | dark | light
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/logo.png",
-    apple: "/logo.png", // apple-touch-icon.png
+    icon: "/logo1.png",
+    shortcut: "/logo1.png",
+    apple: "/logo1.png", // apple-touch-icon.png
   },
 }
 
